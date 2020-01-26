@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "removeComments": false,
-    "alwaysStrict": true,
     "declaration": false,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+
+    "removeComments": false,
+
     "noImplicitAny": false,
+
     "strict": true,
+    "alwaysStrict": true,
+
     "target": "es5",
     "module": "commonjs",
     "jsx": "react",
-    "resolveJsonModule": true,
     "lib": [
       "esnext",
       "dom"
